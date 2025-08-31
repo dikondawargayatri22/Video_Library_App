@@ -1,0 +1,106 @@
+{
+  "Admin": [
+    {
+      "id": "1",
+      "admin_id": "john_2",
+      "password": "john@123"
+    }
+  ],
+  "users": [
+    {
+      "id": "2",
+      "User_id": "samUser21",
+      "User_pass": "sam@12",
+      "Email": "sam@outlook.com"
+    },
+    {
+      "id": "bf74",
+      "user_id": "samUser21",
+      "user_name": "sam",
+      "password": "sam@12",
+      "email": "sam@outlook.com"
+    }
+  ],
+  "Categories": [
+    {
+      "id": "1",
+      "Category_id": 1,
+      "Category_name": "Java"
+    },
+    {
+      "id": "2",
+      "Category_id": 2,
+      "Category_name": "React"
+    },
+    {
+      "id": "3",
+      "Category_id": 3,
+      "Category_name": ".Net"
+    }
+  ],
+  "videos": [
+    {
+      "id": "2",
+      "video_id": 2,
+      "title": "Java Tutorial",
+      "url": "https://www.youtube.com/embed/p6cXj0C4d9A",
+      "views": "500",
+      "likes": "300",
+      "dislikes": "0",
+      "description": "Java fullstack Tutorial",
+      "Categories_id": 0,
+      "comments": "Thank you"
+    },
+    {
+      "video_id": 5,
+      "title": "java tutorial",
+      "url": "https://www.youtube.com/embed/Qhe_UsXCfrA",
+      "description": "java is awesome",
+      "category_id": 0,
+      "likes": 300,
+      "views": 5000,
+      "dislikes": 499,
+      "comments": "very good",
+      "id": "9"
+    },
+    {
+      "id": "2",
+      "video_id": 3,
+      "title": "react",
+      "url": "https://www.youtube.com/embed/Qhe_UsXCfrA",
+      "description": "good",
+      "category_id": 0,
+      "likes": 300,
+      "views": 500,
+      "dislikes": 100,
+      "comments": "",
+      "comment": "good"
+    },
+    {
+      "id": "9",
+      "video_id": 3,
+      "title": "react",
+      "url": "https://www.youtube.com/embed/Qhe_UsXCfrA",
+      "description": "good",
+      "category_id": 0,
+      "likes": 300,
+      "views": 500,
+      "dislikes": 100,
+      "comments": "",
+      "comment": "good"
+    },
+    {
+      "id": "1",
+      "video_id": 4,
+      "title": "python",
+      "url": "https://www.youtube.com/embed/wgASnaPS0q8",
+      "description": "good",
+      "category_id": 0,
+      "likes": 40,
+      "views": 78,
+      "dislikes": 5,
+      "comments": "",
+      "comment": "nice"
+    }
+  ]
+}
