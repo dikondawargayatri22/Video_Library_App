@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Player(songId,title,loop,obj){
+            console.log(`songId:${songId}\nsongtitle:${title}\nloop:${loop}\nbuttonvalue:${obj.value}`);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="Player(1,'Arjit Hit',true,this)" value="play"id="btnPlay">Play</button>
+    <button onclick="Player()"vlaue="pause"id="btnPause">Pause</button>
+</body>
+</html>

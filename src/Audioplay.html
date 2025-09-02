@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioPlaying</title>
+    <script>
+        let audio;
+        function bodyLoad(){
+            audio=new Audio("");
+            document.getElementById("btnPlay").addEventListener("click",function(e){
+                audio.play();
+                console.log(`Y=${e.clientY}\nbuttonvalue=${e.target.value}`);
+            });
+            document.getElementById("btnPause").addEventListener("click",function(e){
+                audio.pause();
+                console.log(`Y=${e.clientX}\nbuttonvalue=${e.target.value}`);
+            });
+        }
+    </script>
+</head>
+<body onload="bodyLoad()">
+    <h1 class="bi-0-square">Simple Music Player</h1>
+    <button value="play"id="btnPlay">Play</button>
+    <button value="pause"id="btnPause">Pause</button>
+    
+</body>
+</html>

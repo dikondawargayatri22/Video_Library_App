@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "TV",
+      "price": 50000
+    },
+    {
+      "id": "1",
+      "name": "mobile",
+      "price": 30000
+    },
+    {
+      "id": "2",
+      "name": "Freeze",
+      "price": 50000
+    },
+    {
+      "id": "1",
+      "name": "AC",
+      "price": 500000
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Fashion"
+    }
+  ]
+}

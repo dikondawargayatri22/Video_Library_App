@@ -1,0 +1,13 @@
+.form-style{
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 4px 4px 2px grey;
+padding: 20px;
+width: 250px;
+}
+.main-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
